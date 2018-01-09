@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Ionic Blank
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  The world is your oyster.
+  <p>
+    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
+  </p>
+  <button ion-button full (click)="startVideo()">Start Video</button>
+  <button ion-button full (click)="startAudio()">Start Audio</button>
+  <button ion-button full (click)="stopAudio()" color="danger">Stop Audio</button>
+
+  <ion-input type="text" [(ngModel)]="text" placeholder="Enter some text"></ion-input>
+  <button ion-button (click)="Clipboard()">Save</button>
+  <button ion-button (click)="googleplus()">googleplus</button>
+  <button ion-button (click)="facebook()">FB</button>
+</ion-content>

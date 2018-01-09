@@ -1,0 +1,8 @@
+{
+  "name": "media",
+  "app_id": "b55791ff",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
