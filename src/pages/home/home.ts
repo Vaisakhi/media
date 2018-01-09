@@ -6,8 +6,8 @@ import { GooglePlus } from '@ionic-native/google-plus';
 import { Facebook, FacebookLoginResponse } from '@ionic-native/facebook';
 
 
-//google plus client id:523675779172-8qib11e33ugbjapm43he6nolbvfan0be.apps.googleusercontent.com
-//reversed client id: com.googleusercontent.apps.523675779172-8qib11e33ugbjapm43he6nolbvfan0be
+
+
 @Component({
   selector: 'page-home',
   templateUrl: 'home.html'
@@ -59,7 +59,7 @@ this.clipboard.paste().then(
   .then(res => alert(res))
   .catch(err => alert(err));
   }
-//1639924172734827
+
 
 facebook(){
   this.fb.login(['public_profile', 'user_friends', 'email'])
