@@ -88,7 +88,7 @@
         <variable name="REVERSED_CLIENT_ID" value="" />
     </plugin>
     <plugin name="cordova-plugin-facebook4" spec="^1.9.1">
-        <variable name="APP_ID" value="1639924172734827" />
+        <variable name="APP_ID" value="" />
         <variable name="APP_NAME" value="trailapp" />
     </plugin>
 </widget>
